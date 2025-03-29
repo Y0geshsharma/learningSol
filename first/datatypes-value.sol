@@ -9,7 +9,6 @@
 // bytes & string
 // Enums
 
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.29;
 
@@ -25,4 +24,8 @@ contract UsingDataType {
     // int
     int public defaultIntType = 256; //positive number
     int8 public iNegativeIntType = -1; //negative number
+
+    // Min max
+    int public minInt = type(int).min;
+    int public maxInt = type(int).max;
 }
