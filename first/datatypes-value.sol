@@ -24,5 +24,5 @@ contract UsingDataType {
     uint256 public uint256Assigned = 2321;
     // int
     int public defaultIntType = 256; //positive number
-    int8 public negativeIntType = -1; //negative number
+    int8 public iNegativeIntType = -1; //negative number
 }
