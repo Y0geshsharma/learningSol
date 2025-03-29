@@ -28,4 +28,11 @@ contract UsingDataType {
     // Min max
     int public minInt = type(int).min;
     int public maxInt = type(int).max;
+
+    // bytes
+    bytes1 defaultBytes;
+    bytes2 assignedBytes = 0xdf34; /// Bytes is 0,1 * size of the byte also it supports till (0- 16)0000, ffff
+    // address
+    address public defaultAddress; // 0x0000000000000000000000000000000000000000
+    address public assignedAddress = 0x4a9C121080f6D9250Fc0143f41B595fD172E31bf;
 }
