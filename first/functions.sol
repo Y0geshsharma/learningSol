@@ -32,5 +32,9 @@ return stateVariable;
 function setStateVariableData(uint256 _incomingData) public {
  stateVariable = _incomingData;
 }
+
+function sumOfYourNumber(uint256 _incomingFirstNumber,uint256 _incomingSecondNumber ) public pure returns(uint256){
+ return _incomingFirstNumber + _incomingSecondNumber;
+}
 }
 
